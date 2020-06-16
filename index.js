@@ -11,10 +11,7 @@ const resep = [
   "400 ml susu cair",
   "250 g pisang ambon matang",
   "2 butir telur ayam",
-  "topping:",
-  "madu",
-  "pisang ambon, iris tipis",
-  "blueberry",
+  "topping: pisang ambon, iris tipis",
 ];
 const ulList = document.createElement("ul");
 
