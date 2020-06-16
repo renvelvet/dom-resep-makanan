@@ -24,5 +24,15 @@ resep.forEach((items) => {
   list.appendChild(listItem);
   ulList.appendChild(list);
 });
-
+const gambarPancake = document.getElementById("image-body");
+const gambar =
+  "https://img.bestrecipes.com.au/vO8QHxam/w643-h428-cfill-q90/br/2019/01/banana-pancakes-recipe-522124-1.jpg";
 document.getElementById("resep-body").appendChild(ulList);
+document.getElementById(
+  "image-body"
+).innerHTML = `<img src="${gambar}" alt="pancake-banana">`;
+
+// ------------ styling -----------------
+gambarPancake.style.textAlign = "center";
+gambarPancake.style.margin = "40px auto";
+ulList.style.margin = "30px 0 0 0";
