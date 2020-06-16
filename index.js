@@ -1,6 +1,4 @@
 const h1 = document.getElementById("judul");
-console.log(h1);
-h1.style.textAlign = "center";
 
 const resep = [
   "250 g tepung terigu",
@@ -33,3 +31,5 @@ document.getElementById(
 gambarPancake.style.textAlign = "center";
 gambarPancake.style.margin = "40px auto";
 ulList.style.margin = "30px 0 0 0";
+h1.style.textAlign = "center";
+h1.style.fontFamily = "'Lobster', cursive";
